@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="lfnzvnwvs6l_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TComputer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,20,171,101" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TComputer.Configuration" />
+      <reference referencedUin="delphi:l_ast:src:Project3:AplicationLogic.TComputer.Configuration">
+        <property name="sourceAnchor" value="300,61" />
+        <property name="targetAnchor" value="166,380" />
+        <property name="bendpoints" value="84,61,84,283" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TComputer.Select()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TServer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="140,160,126,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Project3:AplicationLogic.TServer:AplicationLogic.TComputer">
+        <property name="sourceAnchor" value="260,160" />
+        <property name="targetAnchor" value="314,121" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TServer.Select()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TPortable">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,160,126,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Project3:AplicationLogic.TPortable:AplicationLogic.TComputer">
+        <property name="sourceAnchor" value="343,160" />
+        <property name="targetAnchor" value="343,121" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TPortable.Select()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TDecktop">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="440,160,126,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Project3:AplicationLogic.TDecktop:AplicationLogic.TComputer">
+        <property name="sourceAnchor" value="460,160" />
+        <property name="targetAnchor" value="460,121" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TDecktop.Select()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TConfiguration">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="140,380,125,84" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TConfiguration.Element" />
+      <reference referencedUin="delphi:l_ast:src:Project3:AplicationLogic.TConfiguration.Element">
+        <property name="sourceAnchor" value="265,413" />
+        <property name="targetAnchor" value="300,413" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TElement">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,380,86,67" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TDDR">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="140,500,86,67" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Project3:AplicationLogic.TDDR:AplicationLogic.TElement">
+        <property name="sourceAnchor" value="224,500" />
+        <property name="targetAnchor" value="300,444" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TMotherBoard">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,500,96,67" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Project3:AplicationLogic.TMotherBoard:AplicationLogic.TElement">
+        <property name="sourceAnchor" value="343,500" />
+        <property name="targetAnchor" value="343,447" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TProcessor">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="440,500,86,67" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:l_gnt:src:Project3:AplicationLogic.TProcessor:AplicationLogic.TElement">
+        <property name="sourceAnchor" value="444,500" />
+        <property name="targetAnchor" value="382,446" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

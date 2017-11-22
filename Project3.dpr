@@ -2,7 +2,8 @@ program Project3;
 
 uses
   Vcl.Forms,
-  Unit3 in 'Unit3.pas' {Form3};
+  Unit3 in 'Unit3.pas' {Form3},
+  AplicationLogic in 'AplicationLogic.pas';
 
 {$R *.res}
 
