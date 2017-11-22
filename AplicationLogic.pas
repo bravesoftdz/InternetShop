@@ -17,9 +17,10 @@ type
   end;
 
   TServer = class(TComputer)
-  public
+  private
     /// <link>aggregation</link>
     fConfiguration: TConfiguration;
+  public
     function Select: TComputer; override;
   published
     constructor create(Configuration: TConfiguration); override;
@@ -44,13 +45,16 @@ type
   end;
 
   TConfiguration = class
-  public
+  private
     /// <link>aggregation</link>
     fDDR: TDDR;
     /// <link>aggregation</link>
     fMotherBoard: TMotherBoard;
     /// <link>aggregation</link>
     fProcessor: TProcessor;
+  public
+    function Select: TConfiguration;
+
   published
     constructor create(DDR: TDDR; MotherBoard: TMotherBoard; Processor: TProcessor);
   end;
@@ -59,6 +63,9 @@ type
   private
     name: string;
     price: integer;
+  public
+    function Select: TDDR;
+
   published
     constructor create;
   end;
@@ -67,6 +74,8 @@ type
   private
     name: string;
     price: integer;
+  public
+    function Select: TDDR;
   published
     constructor create;
   end;
@@ -75,6 +84,8 @@ type
   private
     name: string;
     price: integer;
+  public
+    function Select: TDDR;
   published
     constructor create;
   end;
@@ -128,6 +139,11 @@ begin
   fProcessor:= Processor
 end;
 
+function TConfiguration.Select: TConfiguration;
+begin
+//
+end;
+
 { TDDR }
 
 constructor TDDR.create;
@@ -136,6 +152,11 @@ begin
     name: string;
     price: integer;
     }
+end;
+
+function TDDR.Select: TDDR;
+begin
+//
 end;
 
 { TMotherBoard }
@@ -148,6 +169,11 @@ begin
     }
 end;
 
+function TMotherBoard.Select: TDDR;
+begin
+//
+end;
+
 { TProcessor }
 
 constructor TProcessor.create;
@@ -156,6 +182,11 @@ begin
     name: string;
     price: integer;
     }
+end;
+
+function TProcessor.Select: TDDR;
+begin
+//
 end;
 
 end.

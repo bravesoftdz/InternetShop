@@ -16,10 +16,10 @@
     </reference>
     <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TServer">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="20,120,185,116" />
+      <property name="bounds" value="20,120,174,116" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:l_gnt:src:Project3:AplicationLogic.TServer:AplicationLogic.TComputer">
-        <property name="sourceAnchor" value="205,137" />
+        <property name="sourceAnchor" value="194,140" />
         <property name="targetAnchor" value="300,95" />
         <property name="bendpoints" value="" />
       </reference>
@@ -63,58 +63,62 @@
       <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TDecktop.create(AplicationLogic.TConfiguration)" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TDecktop.fConfiguration" />
       <reference referencedUin="delphi:l_ast:src:Project3:AplicationLogic.TDecktop.fConfiguration">
-        <property name="sourceAnchor" value="520,266" />
-        <property name="targetAnchor" value="240,356" />
+        <property name="sourceAnchor" value="520,268" />
+        <property name="targetAnchor" value="230,364" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
     <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TConfiguration">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="60,320,180,131" />
+      <property name="bounds" value="60,320,170,146" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TConfiguration.create(AplicationLogic.TDDR,AplicationLogic.TMotherBoard,AplicationLogic.TProcessor)" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TConfiguration.fDDR" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TConfiguration.fMotherBoard" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TConfiguration.fProcessor" />
       <reference referencedUin="delphi:l_ast:src:Project3:AplicationLogic.TConfiguration.fDDR">
-        <property name="sourceAnchor" value="183,451" />
-        <property name="targetAnchor" value="183,500" />
+        <property name="sourceAnchor" value="185,466" />
+        <property name="targetAnchor" value="185,500" />
         <property name="bendpoints" value="" />
       </reference>
       <reference referencedUin="delphi:l_ast:src:Project3:AplicationLogic.TConfiguration.fMotherBoard">
-        <property name="sourceAnchor" value="225,451" />
-        <property name="targetAnchor" value="300,515" />
+        <property name="sourceAnchor" value="230,461" />
+        <property name="targetAnchor" value="300,518" />
         <property name="bendpoints" value="" />
       </reference>
       <reference referencedUin="delphi:l_ast:src:Project3:AplicationLogic.TConfiguration.fProcessor">
-        <property name="sourceAnchor" value="240,424" />
-        <property name="targetAnchor" value="440,513" />
+        <property name="sourceAnchor" value="230,433" />
+        <property name="targetAnchor" value="440,536" />
         <property name="bendpoints" value="" />
       </reference>
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TConfiguration.Select()" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TDDR">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="140,500,86,116" />
+      <property name="bounds" value="140,500,98,131" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TDDR.create()" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TDDR.name" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TDDR.price" />
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TDDR.Select()" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TMotherBoard">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="300,500,96,116" />
+      <property name="bounds" value="300,500,98,131" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TMotherBoard.create()" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TMotherBoard.name" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TMotherBoard.price" />
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TMotherBoard.Select()" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project3:AplicationLogic.TProcessor">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="440,500,86,116" />
+      <property name="bounds" value="440,500,98,131" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TProcessor.create()" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TProcessor.name" />
       <reference referencedUin="delphi:e_field:src:Project3:AplicationLogic.TProcessor.price" />
+      <reference referencedUin="delphi:e_method:src:Project3:AplicationLogic.TProcessor.Select()" />
     </reference>
     <reference referencedUin="delphi:e_class:src:Project3:Unit3.TForm3">
       <property name="$shortcutReference" value="true" />
