@@ -92,6 +92,7 @@
 			<None Include="ModelSupport_Project3\AplicationLogic\default.txvpck"/>
 			<None Include="ModelSupport_Project3\Project3\default.txvpck"/>
 			<None Include="ModelSupport_Project3\AplicationLogic\default.txaPackage"/>
+			<None Include="ModelSupport_Project3\Unit3\default.txvpck"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
